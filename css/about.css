@@ -1,0 +1,103 @@
+/* About Styles */
+
+.box-shadow {
+    box-shadow: 0px 8px 16px 0px rgba(4, 56, 99,0.3); /* Box Shadow */
+}
+
+.about-info {
+    width:100%;
+    height:350px;
+}
+
+.compass-container {
+    width: 35%;
+}
+
+.compass {
+    background-image: url(../img/compass.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    margin-top:50px;
+    margin-left: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(4, 56, 99,0.3); /* Box Shadow */
+
+}
+
+.about-text-container {
+    width:65%;
+}
+
+
+.about-text {
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.about-text h1 {
+    font-size:35px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgba(23,37,54,0.7);
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+}
+
+.about-text p {
+    font-size:20px;
+    margin-top: 5px;
+}
+
+.about-text p:first-letter {
+    color: #3392db;
+    float: left;
+    font-size: 60px;
+    line-height: 42px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+.team-container {
+    width:100%;
+    background-image: url(../img/Yosemite.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:450px;
+}
+
+.cody-container {
+    width: 35%;
+}
+
+.cody-info-container {
+    width: 55%;
+    background-color: rgba(23,37,54,0.5);
+    border-radius: 5px;
+    height:225px;
+    margin-top: 75px;
+    margin-right:75px;
+}
+
+.cody {
+    background-image: url(../img/spartan.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 65px;
+    box-shadow: 0px 8px 16px 0px rgba(4, 56, 99,0.3); /* Box Shadow */
+}
+
+.cody-text {
+    color:#FFFFFF;
+    margin-left: 10px
+}
